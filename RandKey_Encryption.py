@@ -3,7 +3,6 @@ import sys
 sys.stdout = open('Random_Key_dictionary.txt', 'w')
 indices = list(range(0, 26))
 dict = {}  # empty dictionary
-
 # Assigning random indices to the alphabets
 for i in range(0, 26):
     key = random.choice(indices)

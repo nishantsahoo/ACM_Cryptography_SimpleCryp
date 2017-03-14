@@ -28,3 +28,4 @@ sys.stdout = open('Encrypt_file.txt', 'w')
 for alpha, num in b.items():
     print fer.decrypt(alpha) + ' : ' + fer.decrypt(num) + ' =',
     print alpha + ' : ' + num
+
